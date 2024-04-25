@@ -1,0 +1,26 @@
++Burp Suite does not have a specific command for tracking mobile phones.
++It is primarily a web application security testing tool that focuses on intercepting and analyzing HTTP/S traffic between web or mobile applications and their backend servers.
+
++Burp Suite is a comprehensive web application security testing tool widely used by security professionals and developers.
++While its primary focus is on web application testing, it's also valuable for testing mobile applications. 
++One of its key features is the ability to intercept and modify HTTP/S traffic between a mobile app and its backend server. 
++By intercepting traffic, security testers can analyze how the mobile app communicates with the server, identify potential security vulnerabilities, and understand its behavior.
+
+******************************************************************************************************************************************************************************
+
+-->Web Application Security Testing: Burp Suite is primarily known for its effectiveness in assessing the security of web applications. It offers a suite of tools for finding vulnerabilities such as SQL injection, cross-site scripting (XSS), and more.
+-->Mobile App Testing: While Burp Suite is designed for web applications, it can also be used to test mobile applications. Mobile apps often communicate with backend servers using HTTP/S protocols, and Burp Suite can intercept and analyze this traffic to assess the security of the app.
+-->Intercepting Traffic: Burp Suite's proxy tool allows testers to intercept HTTP/S requests and responses between the mobile app and the server. This interception capability enables testers to inspect and modify the data being sent and received by the app, providing insights into its behavior and potential security vulnerabilities.
+
+******************************************************************************************************************************************************************************
+
+Here are some commonly used commands for Burp Suite CLI:
+
+burpsuite: This command starts the Burp Suite GUI.
+burpsuite_pro: This command starts Burp Suite Professional, if you have the Professional edition.
+burpsuite_free: This command starts Burp Suite Free Edition, if you have the Free edition.
+burpsuite_pro_cli: This command starts the Burp Suite Professional Command Line Interface.
+burpsuite_pro --help: Use this command to display help information and usage examples for Burp Suite Professional.
+burpsuite_pro_cli --config-file <path_to_config_file>: This command starts Burp Suite Professional CLI with a specified configuration file.
+----------------------------------------------------------------------------------NOTE----------------------------------------------------------------------------------------
+Once Burp Suite is running, most of the interaction and testing tasks are performed through its graphical interface, which provides a wide range of tools and options for testing web and mobile applications.
