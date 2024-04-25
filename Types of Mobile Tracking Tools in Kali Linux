@@ -1,0 +1,10 @@
+Android Debug Bridge (ADB):
+ADB is a versatile command-line tool that allows you to communicate with Android devices. With appropriate permissions, you can track devices, access logs, and perform various debugging tasks.
+Wireshark:
+Wireshark is a powerful network protocol analyzer that runs on Linux. By sniffing network traffic, you can analyze packets to track mobile device activities and communications over Wi-Fi or cellular networks.
+Metasploit Framework:
+Metasploit is a penetration testing framework that includes tools for exploiting vulnerabilities in various systems, including mobile devices. It can be used to assess the security posture of mobile devices and track them if compromised.
+OpenVAS (Open Vulnerability Assessment System):
+OpenVAS is an open-source vulnerability scanner that can be used to identify weaknesses in mobile devices. By detecting vulnerabilities, you can track potential entry points for unauthorized access.
+Burp Suite:
+Burp Suite is a popular web application security testing tool that can also be used for mobile app testing. By intercepting and modifying HTTP/S traffic, you can track and analyze mobile app behavior.
