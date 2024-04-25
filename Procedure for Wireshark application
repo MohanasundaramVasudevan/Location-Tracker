@@ -1,0 +1,24 @@
++Wireshark is a robust network protocol analyzer available for Linux. 
++It allows users to capture and inspect network traffic in real-time. 
++By sniffing network packets, Wireshark enables the analysis of data exchanged between devices connected to the network. 
++This capability extends to tracking mobile device activities and communications over Wi-Fi or cellular networks. 
++Whether it's monitoring app data, website visits, or any other network activity, Wireshark provides detailed insights into the communication between devices.
+
+Here are some common commands for using Wireshark:
+
+wireshark: This command opens the Wireshark graphical user interface (GUI), allowing you to start capturing and analyzing network traffic using a visual interface.
+tshark: Tshark is the command-line version of Wireshark. It enables you to perform packet capture and analysis tasks directly from the terminal.
+sudo wireshark: Running Wireshark with sudo privileges allows you to capture network traffic on interfaces that require elevated permissions, such as promiscuous mode.
+wireshark -i <interface>: This command starts Wireshark capturing on a specific network interface. Replace <interface> with the name of the interface you want to capture from, such as eth0 or wlan0.
+wireshark -k: The -k option starts Wireshark capturing immediately without displaying the graphical interface. This is useful for capturing packets in the background for later analysis.
+wireshark -r <filename>: Use this command to open a previously captured packet capture file for analysis. Replace <filename> with the path to the capture file.
+wireshark -Y <display filter>: Apply a display filter to limit the packets displayed in the Wireshark GUI to those matching the specified criteria. Replace <display filter> with the desired filter expression.
+
+*****************************************************************************************************************************
+
+To track mobile devices using Wireshark, you would typically follow these steps:
+
+-->Capture Packets: Start Wireshark and initiate a packet capture on the network interface where the mobile device's traffic is passing through. This could be a Wi-Fi network interface if the device is connected wirelessly, or an Ethernet interface if the device is connected via cable.
+-->Filter Traffic: Apply appropriate filters in Wireshark to isolate the network traffic originating from the mobile device. This might involve filtering by IP address, MAC address, or specific protocols associated with mobile device communication (e.g., HTTP for web browsing, DNS for domain name resolution).
+-->Analyze Packets: Once you have captured relevant packets, analyze the data to extract information about the mobile device's activities. This could include examining HTTP requests and responses to see which websites the device is accessing, inspecting DNS queries to determine which domains the device is communicating with, or examining other network protocols relevant to mobile device usage.
+-->Interpret Results: Use the information gathered from packet analysis to track the mobile device's activities and behavior on the network. This might involve identifying patterns of communication, determining the types of applications or services being used, or detecting any suspicious or unauthorized activity.
